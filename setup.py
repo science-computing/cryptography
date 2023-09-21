@@ -107,7 +107,7 @@ setup(
             "doc8",
             "pyenchant >= 1.6.11",
             "twine >= 1.12.0",
-            "sphinxcontrib-spelling >= 4.0.1",
+            "sphinxcontrib-spelling >= 4.0.1,<4.3",
         ],
         "pep8test": ["black", "flake8", "flake8-import-order", "pep8-naming"],
         # This extra is for OpenSSH private keys that use bcrypt KDF
